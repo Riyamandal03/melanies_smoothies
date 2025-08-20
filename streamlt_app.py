@@ -48,7 +48,7 @@ VALUES ('{ingredients_string}', '{name_on_order}')
 
 
 #st.text(smoothiefroot_response.json())
-df = pd.DataFrame(smoothiefroot_response.json())
-st.dataframe(df, use_container_width=True)
+#df = pd.DataFrame(smoothiefroot_response.json())
+#st.dataframe(df, use_container_width=True)
 #st.text(smoothiefroot_response.json())
 

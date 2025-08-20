@@ -42,7 +42,7 @@ if ingredients_list:
 
         # ✅ Get the search_on value from the DataFrame
         search_on = pd_df.loc[pd_df['FRUIT_NAME'] == fruit_chosen, 'SEARCH_ON'].iloc[0]
-        st.write('The search value for ', fruit_chosen, ' is ', search_on, '.')
+        #st.write('The search value for ', fruit_chosen, ' is ', search_on, '.')
 
         # Show nutrition info
         st.subheader(fruit_chosen + ' Nutrition Information')
